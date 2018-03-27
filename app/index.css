@@ -4,6 +4,7 @@ body {
 
 ul {
   padding-left: 0;
+  list-style: none;
 }
 
 .container {
@@ -13,11 +14,36 @@ ul {
 .languages {
   display: flex;
   justify-content: center;
-  list-style: none;
 }
 
 .languages li {
   margin: 10px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popular-item {
+  margin: 20px;
+  text-align: center;
+
+}
+
+.popular-rank {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
 }
